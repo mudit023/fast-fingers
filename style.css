@@ -1,6 +1,6 @@
 /* Import Google Font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-/* #17a2b8 */
+/* */
 * {
   margin: 0;
   padding: 0;
@@ -11,18 +11,31 @@
   --bg-light-color: #e0e0e0;
   --active-font-color: #f89a43 ;
   --font-color: #303030;
-  --correct-color: #53c646;
+  --correct-color:#53c646  ;
   --incorrect-color: #cb3439;
   --incorrect-bg-color: #ffc0cb;
   --button-light-bg-color: #f89a43 ;
 }
 body {
   display: flex;
+  flex-direction: column;
   padding: 0 10px;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: var(--bg-light-color);
+}
+
+.heading {
+  padding: 20px;
+  margin-bottom: 55px;
+  border-radius: 40px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  15px 15px 34px #c7c7c7,
+             -15px -15px 34px #f9f9f9;
+}
+.heading h1{
+  font-size: 48px;
 }
 ::selection {
   color: #fff;
