@@ -75,7 +75,7 @@ function initTyping() {
     clearInterval(timer)
     inpField.value = ''
     typingDiv.classList.add('typingDisable')
-    console.log('Hi in typing');
+    // console.log('Hi in typing');
   }
 }
 
@@ -91,7 +91,7 @@ function initTimer() {
   }
   else {
     typingDiv.classList.add('typingDisable')
-    console.log('Hi in initTimer');
+    // console.log('Hi in initTimer');
     clearInterval(timer)
   }
 }
